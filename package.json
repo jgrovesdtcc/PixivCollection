@@ -11,7 +11,6 @@
             "lint": "eslint src"
     }
 
-    ,
     "packageManager": "pnpm@8.15.4",
     // 新增此行（使用最新稳定版）
     "dependencies": {
@@ -22,7 +21,6 @@
             "vue": "^3.5.16"
     }
 
-    ,
     "devDependencies": {
         "@antfu/eslint-config": "^4.14.1",
             "@types/node": "^20.19.1",

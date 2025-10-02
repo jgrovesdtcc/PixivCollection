@@ -5,10 +5,11 @@
   "private": true,
   "scripts": {
     "dev": "vite --host",
-    "build": "vue-tsc && vite build",
+    "build": "vue-tsc &&build": "vue-tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint src"
   },
+  "packageManager": "pnpm@8.15.4",  // 新增此行（使用最新稳定版）
   "dependencies": {
     "@orilight/vue-settings": "^1.2.2",
     "@vueuse/core": "^13.3.0",
